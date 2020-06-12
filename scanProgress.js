@@ -43,6 +43,7 @@ var ScanProgressChartModule = function () {
     
     component.init = function () {
       if (container) {
+        d3.select("#" + container).selectAll("*").remove(); 
         $container = $("#" + container);
         width = $container.width();
         height = $container.height();
@@ -57,6 +58,9 @@ var ScanProgressChartModule = function () {
         .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
       }
       return component;
+    }
+    component.update = function(progress) {
+        updateProgressArc(progress);
     }
     component.render = function(progresses, running) {
         /**
@@ -166,6 +170,41 @@ var ScanProgressChartModule = function () {
         .attr('fill', runningbackground);  
       }
 
+      function updateProgressArc(progress) {
+        old_path = svg.selectAll("path:last-child");
+
+        svg
+        .append("path")
+        .attr("transform", "translate(" + width/2 + "," + height/2 + ")")
+        .transition()
+        .duration(1000)
+        .attr("d", d3.arc()
+        .innerRadius( chartWidth/2-30 )
+        .outerRadius( chartWidth/2-35 )
+        .startAngle( -120 * (Math.PI/180) )
+        .endAngle( (-120+240/100*progress) * (Math.PI/180) )
+        .cornerRadius(15)
+        )
+
+        .attr('stroke', grayDefault)
+        .attr('fill', greenDefault);
+
+        old_path.remove();
+      }
+      function createProgressArc(progress) {
+        svg
+        .append("path")
+        .attr("transform", "translate(" + width/2 + "," + height/2 + ")")
+        .attr("d", d3.arc()
+        .innerRadius( chartWidth/2-30 )
+        .outerRadius( chartWidth/2-35 )
+        .startAngle( -120 * (Math.PI/180) )
+        .endAngle( (-120+240/100*progress) * (Math.PI/180) )
+        .cornerRadius(15)
+        )
+        .attr('stroke', grayDefault)
+        .attr('fill', greenDefault);
+      }
       function createInnerArc(progress, running) {
         svg
         .append("path")
@@ -181,18 +220,7 @@ var ScanProgressChartModule = function () {
         .attr('fill', grayDefault);
       
         if (running) {
-            svg
-            .append("path")
-            .attr("transform", "translate(" + width/2 + "," + height/2 + ")")
-            .attr("d", d3.arc()
-            .innerRadius( chartWidth/2-30 )
-            .outerRadius( chartWidth/2-35 )
-            .startAngle( -120 * (Math.PI/180) )
-            .endAngle( (-120+240/100*progress) * (Math.PI/180) )
-            .cornerRadius(15)
-            )
-            .attr('stroke', grayDefault)
-            .attr('fill', greenDefault);
+          createProgressArc(progress);
         }
       }
     component.initThreshold = function(threshold) {
