@@ -5,7 +5,14 @@ var ScanProgressChartModule = function () {
     var container = null;
     var values = [];
     var selectedRange = [];
-    var threshold =  [50, 80];
+
+    var firstPath = null;
+    var secondPath = null;
+    var thirdPath = null;
+
+    var default_threshold =  [50, 80];
+    var default_progresses = [0, 0];
+    var default_running = false;
 
     var grayDefault = "rgb(229,229,229)";
     var yellowDefault = "rgb(248,207,29)";
@@ -59,10 +66,19 @@ var ScanProgressChartModule = function () {
       }
       return component;
     }
-    component.update = function(progress) {
-        updateProgressArc(progress);
+    component.update = function(update_progress) {
+        if (update_progress[0]!=default_progresses[0] || default_running != update_progress[2]) {
+          p_progress = [];
+          p_progress[0] = update_progress[0];
+          p_progress[1] = update_progress[1];
+          this.render(p_progress);
+        }
+        updateProgressArc(update_progress[1]);
     }
     component.render = function(progresses, running) {
+        svg.selectAll("*").remove();
+        default_progresses = progresses;
+        default_running = running;
         /**
          * progresses 接受2个参数 [x, y]
          * 如果 x = -1, 表示初始化, 反之将和threshold比较
@@ -72,11 +88,11 @@ var ScanProgressChartModule = function () {
         let flag;
         if (progresses[0] == -1)
             flag = -1;
-        if (progresses[0] < threshold[0]){
+        if (progresses[0] < default_threshold[0]){
             flag = 0;
-        } else if (progresses[0] >= threshold[0] && progresses[0] <= threshold[1]) {
+        } else if (progresses[0] >= default_threshold[0] && progresses[0] <= default_threshold[1]) {
             flag = 1;
-        } else if (progresses[0] > threshold[1]) {
+        } else if (progresses[0] > default_threshold[1]) {
             flag = 2;
         }
         if (running)
@@ -107,9 +123,13 @@ var ScanProgressChartModule = function () {
             runningbackground = greenRunningDefault;
             runningborder = greenBorderDefault;
         }
-        svg
+
+        if (firstPath)
+          firstPath.remove();
+
+        firstPath = svg
         .append("path")
-        .attr("transform", "translate(200,200)")
+        .attr("transform", "translate(" + width/2 + "," + height/2 + ")")
         .attr("d", d3.arc()
             .innerRadius( chartWidth/2-innerWidth )
             .outerRadius( chartWidth/2 )
@@ -119,9 +139,11 @@ var ScanProgressChartModule = function () {
           )
           .attr('fill', grayDefault);
         
-        svg
+        if (secondPath)
+          secondPath.remove();
+        secondPath = svg
         .append("path")
-        .attr("transform", "translate(200,200)")
+        .attr("transform", "translate(" + width/2 + "," + height/2 + ")")
         .attr("d", d3.arc()
             .innerRadius( chartWidth/2-innerWidth )
             .outerRadius( chartWidth/2 )
@@ -146,7 +168,11 @@ var ScanProgressChartModule = function () {
             runningbackground = greenDefault;
         }
     
-        svg
+        if (firstPath) {
+          console.log("Hello");
+          firstPath.remove();
+        }
+        firstPath = svg
         .append("path")
         .attr("transform", "translate(" + width/2 + "," + height/2 + ")")
         .attr("d", d3.arc()
@@ -157,7 +183,10 @@ var ScanProgressChartModule = function () {
           .cornerRadius(15)
           )
           .attr('fill', grayDefault)
-        svg
+
+        if (secondPath)
+          secondPath.remove();
+        secondPath = svg
         .append("path")
         .attr("transform", "translate(" + width/2 + "," + height/2 + ")")
         .attr("d", d3.arc()
@@ -194,6 +223,8 @@ var ScanProgressChartModule = function () {
       function createProgressArc(progress) {
         svg
         .append("path")
+        // .transition()
+        // .duration(2000)
         .attr("transform", "translate(" + width/2 + "," + height/2 + ")")
         .attr("d", d3.arc()
         .innerRadius( chartWidth/2-30 )
