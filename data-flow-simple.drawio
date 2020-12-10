@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-12-10T10:06:32.132Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="q6UAl4Dxhv7VJI0uv4yP" version="14.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-10T10:24:22.660Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="4BrwIVCEjApsaBFsq0bA" version="14.0.0" type="github">
   <diagram name="Page-1" id="c7558073-3199-34d8-9f00-42111426c3f3">
-    <mxGraphModel dx="1422" dy="1963" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -125,6 +125,60 @@
         <mxCell id="Wp3fWdjh60ijozdMkYZD-127" value="Applications" style="swimlane;startSize=20;horizontal=0;rounded=1;strokeWidth=3;" parent="1" vertex="1">
           <mxGeometry x="13" y="50" width="800" height="120" as="geometry" />
         </mxCell>
+        <mxCell id="LDGPiypFd4h9UwkiteBG-43" value="" style="group;rounded=1;shadow=0;sketch=0;" vertex="1" connectable="0" parent="Wp3fWdjh60ijozdMkYZD-127">
+          <mxGeometry x="197" y="1010" width="80" height="69" as="geometry" />
+        </mxCell>
+        <mxCell id="LDGPiypFd4h9UwkiteBG-26" value="Notification" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;shadow=1;dashed=0;shape=mxgraph.ios7.icons.window;rounded=1;gradientColor=#ffffff;strokeColor=#1A1A1A;fillColor=#FFFFFF;" vertex="1" parent="LDGPiypFd4h9UwkiteBG-43">
+          <mxGeometry width="79.99999999999991" height="69" as="geometry" />
+        </mxCell>
+        <mxCell id="LDGPiypFd4h9UwkiteBG-42" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;shadow=0;dashed=0;shape=mxgraph.ios7.icons.messages;rounded=0;fillColor=#FFFFFF;strokeColor=#B3B3B3;" vertex="1" parent="LDGPiypFd4h9UwkiteBG-43">
+          <mxGeometry x="24.413914060216236" y="26.209166877690546" width="31.179966871285167" height="29.057229678399587" as="geometry" />
+        </mxCell>
+        <mxCell id="LDGPiypFd4h9UwkiteBG-27" value="" style="group" vertex="1" connectable="0" parent="Wp3fWdjh60ijozdMkYZD-127">
+          <mxGeometry x="433" y="999" width="110" height="79" as="geometry" />
+        </mxCell>
+        <mxCell id="LDGPiypFd4h9UwkiteBG-28" value="Alarm management" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;shadow=0;dashed=0;shape=mxgraph.ios7.icons.window;rounded=1;gradientColor=#ffffff;strokeColor=#333333;fillColor=#FFFFFF;" vertex="1" parent="LDGPiypFd4h9UwkiteBG-27">
+          <mxGeometry width="90" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="LDGPiypFd4h9UwkiteBG-29" value="" style="html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;shadow=0;dashed=0;strokeWidth=2;shape=mxgraph.ios7.misc.info;rounded=1;gradientColor=#ffffff;strokeColor=#B3B3B3;fillColor=#FFFFFF;" vertex="1" parent="LDGPiypFd4h9UwkiteBG-27">
+          <mxGeometry x="24.06" y="17.95" width="45.94" height="42.05" as="geometry" />
+        </mxCell>
+        <mxCell id="LDGPiypFd4h9UwkiteBG-30" value="" style="group" vertex="1" connectable="0" parent="Wp3fWdjh60ijozdMkYZD-127">
+          <mxGeometry x="543" y="999" width="80.63" height="69" as="geometry" />
+        </mxCell>
+        <mxCell id="LDGPiypFd4h9UwkiteBG-31" value="Model management" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;shadow=0;dashed=0;shape=mxgraph.ios7.icons.window;rounded=1;gradientColor=#ffffff;strokeColor=#333333;fillColor=#FFFFFF;" vertex="1" parent="LDGPiypFd4h9UwkiteBG-30">
+          <mxGeometry width="80.63000000000001" height="69" as="geometry" />
+        </mxCell>
+        <mxCell id="LDGPiypFd4h9UwkiteBG-32" value="" style="html=1;strokeWidth=1;shadow=0;dashed=0;shape=mxgraph.ios7.misc.settings;strokeColor=none;buttonText=;strokeColor2=#222222;fontColor=#222222;fontSize=8;verticalLabelPosition=bottom;verticalAlign=top;align=center;rounded=1;fillColor=#B3B3B3;" vertex="1" parent="LDGPiypFd4h9UwkiteBG-30">
+          <mxGeometry x="22.370958958561065" y="17.85253164556962" width="35.880069561760905" height="33.30341772151899" as="geometry" />
+        </mxCell>
+        <mxCell id="LDGPiypFd4h9UwkiteBG-33" value="" style="group" vertex="1" connectable="0" parent="Wp3fWdjh60ijozdMkYZD-127">
+          <mxGeometry x="650" y="999" width="90" height="69" as="geometry" />
+        </mxCell>
+        <mxCell id="LDGPiypFd4h9UwkiteBG-34" value="Assets management" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;shadow=0;dashed=0;shape=mxgraph.ios7.icons.window;rounded=1;gradientColor=#ffffff;strokeColor=#333333;fillColor=#FFFFFF;" vertex="1" parent="LDGPiypFd4h9UwkiteBG-33">
+          <mxGeometry width="90.00000000000001" height="69.00000000000001" as="geometry" />
+        </mxCell>
+        <mxCell id="LDGPiypFd4h9UwkiteBG-35" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.navigation.coverFlow;strokeColor=#999999;rounded=1;gradientColor=#ffffff;fillColor=#FFFFFF;" vertex="1" parent="LDGPiypFd4h9UwkiteBG-33">
+          <mxGeometry x="12.187500000000004" y="17.250000000000004" width="69.375" height="38.42045454545455" as="geometry" />
+        </mxCell>
+        <mxCell id="LDGPiypFd4h9UwkiteBG-36" value="" style="group;strokeWidth=1;" vertex="1" connectable="0" parent="Wp3fWdjh60ijozdMkYZD-127">
+          <mxGeometry x="780" y="990" width="50" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="LDGPiypFd4h9UwkiteBG-37" value="Mobile Adaption" style="html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.ios7.misc.iphone;strokeColor=#c0c0c0;rounded=1;gradientColor=#ffffff;fillColor=#FFFFFF;" vertex="1" parent="LDGPiypFd4h9UwkiteBG-36">
+          <mxGeometry width="50" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="LDGPiypFd4h9UwkiteBG-38" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.graphics.lineChart;strokeColor=none;strokeColor2=#666666;strokeColor3=#008cff;strokeColor4=#dddddd;rounded=1;gradientColor=#ffffff;fillColor=#FFFFFF;" vertex="1" parent="LDGPiypFd4h9UwkiteBG-36">
+          <mxGeometry x="6.557377049180329" y="16.875" width="36.885245901639344" height="56.25" as="geometry" />
+        </mxCell>
+        <mxCell id="LDGPiypFd4h9UwkiteBG-45" value="" style="group" vertex="1" connectable="0" parent="Wp3fWdjh60ijozdMkYZD-127">
+          <mxGeometry x="870" y="992.5" width="93" height="75.5" as="geometry" />
+        </mxCell>
+        <mxCell id="LDGPiypFd4h9UwkiteBG-46" value="Real-time data &lt;br&gt;visualization" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;shadow=0;dashed=0;shape=mxgraph.ios7.icons.window;rounded=1;gradientColor=#ffffff;strokeColor=#1A1A1A;fillColor=#FFFFFF;" vertex="1" parent="LDGPiypFd4h9UwkiteBG-45">
+          <mxGeometry y="9.4375" width="92.9999999999999" height="66.0625" as="geometry" />
+        </mxCell>
+        <mxCell id="LDGPiypFd4h9UwkiteBG-44" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=3;shadow=0;dashed=0;shape=mxgraph.ios7.icons.globe;rounded=0;fillColor=#FFFFFF;strokeColor=#B3B3B3;" vertex="1" parent="LDGPiypFd4h9UwkiteBG-45">
+          <mxGeometry x="28.381175095001375" y="28.3125" width="36.24671148786901" height="37.75" as="geometry" />
+        </mxCell>
         <mxCell id="Wp3fWdjh60ijozdMkYZD-128" value="Data System" style="swimlane;startSize=20;horizontal=0;rounded=1;strokeWidth=3;" parent="1" vertex="1">
           <mxGeometry x="10" y="190" width="800" height="305" as="geometry" />
         </mxCell>
@@ -221,53 +275,14 @@
         <mxCell id="Wp3fWdjh60ijozdMkYZD-100" value="&lt;p style=&quot;margin: 4px 0px 0px ; text-align: center ; text-decoration: underline ; line-height: 100%&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=middle;align=center;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=1;fontStyle=1;strokeWidth=2;fillColor=#E6FFCC;perimeterSpacing=10;spacingRight=0;spacingBottom=0;spacingTop=3;" parent="1" vertex="1">
           <mxGeometry x="1020" y="460" width="260" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="LDGPiypFd4h9UwkiteBG-26" value="Labeling&amp;nbsp; | Segmentation" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;shadow=0;dashed=0;shape=mxgraph.ios7.icons.window;rounded=1;fillColor=#009999;gradientColor=#ffffff;strokeColor=#1A1A1A;" vertex="1" parent="1">
-          <mxGeometry x="1050" y="100" width="102.63" height="78.98000000000002" as="geometry" />
+        <mxCell id="LDGPiypFd4h9UwkiteBG-39" value="" style="group;rounded=1;shadow=0;sketch=0;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="310" y="1060" width="80" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="LDGPiypFd4h9UwkiteBG-27" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="580" y="-79" width="110" height="79" as="geometry" />
-        </mxCell>
-        <mxCell id="LDGPiypFd4h9UwkiteBG-28" value="Alarm management" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;shadow=0;dashed=0;shape=mxgraph.ios7.icons.window;rounded=1;gradientColor=#ffffff;strokeColor=#333333;fillColor=#FFFFFF;" vertex="1" parent="LDGPiypFd4h9UwkiteBG-27">
-          <mxGeometry width="110.00000000000001" height="79" as="geometry" />
-        </mxCell>
-        <mxCell id="LDGPiypFd4h9UwkiteBG-29" value="" style="html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;shadow=0;dashed=0;strokeWidth=2;shape=mxgraph.ios7.misc.info;rounded=1;gradientColor=#ffffff;strokeColor=#B3B3B3;fillColor=#FFFFFF;" vertex="1" parent="LDGPiypFd4h9UwkiteBG-27">
-          <mxGeometry x="24.062500000000004" y="17.95454545454546" width="61.875000000000014" height="47.57954545454547" as="geometry" />
-        </mxCell>
-        <mxCell id="LDGPiypFd4h9UwkiteBG-30" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="739.37" y="-79" width="100.63" height="79" as="geometry" />
-        </mxCell>
-        <mxCell id="LDGPiypFd4h9UwkiteBG-31" value="Model management" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;shadow=0;dashed=0;shape=mxgraph.ios7.icons.window;rounded=1;gradientColor=#ffffff;strokeColor=#333333;fillColor=#FFFFFF;" vertex="1" parent="LDGPiypFd4h9UwkiteBG-30">
-          <mxGeometry width="100.63000000000001" height="79" as="geometry" />
-        </mxCell>
-        <mxCell id="LDGPiypFd4h9UwkiteBG-32" value="" style="html=1;strokeWidth=1;shadow=0;dashed=0;shape=mxgraph.ios7.misc.settings;strokeColor=none;buttonText=;strokeColor2=#222222;fontColor=#222222;fontSize=8;verticalLabelPosition=bottom;verticalAlign=top;align=center;rounded=1;fillColor=#B3B3B3;" vertex="1" parent="LDGPiypFd4h9UwkiteBG-30">
-          <mxGeometry x="27.919999999999998" y="30" width="44.78" height="38.13" as="geometry" />
-        </mxCell>
-        <mxCell id="LDGPiypFd4h9UwkiteBG-33" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="910" y="-79" width="100" height="79" as="geometry" />
-        </mxCell>
-        <mxCell id="LDGPiypFd4h9UwkiteBG-34" value="Assets management" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;shadow=0;dashed=0;shape=mxgraph.ios7.icons.window;rounded=1;gradientColor=#ffffff;strokeColor=#333333;fillColor=#FFFFFF;" vertex="1" parent="LDGPiypFd4h9UwkiteBG-33">
-          <mxGeometry width="100.00000000000001" height="79.00000000000001" as="geometry" />
-        </mxCell>
-        <mxCell id="LDGPiypFd4h9UwkiteBG-35" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.navigation.coverFlow;strokeColor=#999999;rounded=1;gradientColor=#ffffff;fillColor=#FFFFFF;" vertex="1" parent="LDGPiypFd4h9UwkiteBG-33">
-          <mxGeometry x="13.54166666666667" y="19.750000000000004" width="77.08333333333333" height="43.98863636363637" as="geometry" />
-        </mxCell>
-        <mxCell id="LDGPiypFd4h9UwkiteBG-36" value="" style="group;strokeWidth=1;" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="1110" y="-110" width="65" height="110" as="geometry" />
-        </mxCell>
-        <mxCell id="LDGPiypFd4h9UwkiteBG-37" value="Mobile Adaption" style="html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.ios7.misc.iphone;strokeColor=#c0c0c0;rounded=1;gradientColor=#ffffff;fillColor=#FFFFFF;" vertex="1" parent="LDGPiypFd4h9UwkiteBG-36">
-          <mxGeometry width="65" height="110" as="geometry" />
-        </mxCell>
-        <mxCell id="LDGPiypFd4h9UwkiteBG-38" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.graphics.lineChart;strokeColor=none;strokeColor2=#666666;strokeColor3=#008cff;strokeColor4=#dddddd;rounded=1;gradientColor=#ffffff;fillColor=#FFFFFF;" vertex="1" parent="LDGPiypFd4h9UwkiteBG-36">
-          <mxGeometry x="8.524590163934427" y="20.625" width="47.95081967213115" height="68.75" as="geometry" />
-        </mxCell>
-        <mxCell id="LDGPiypFd4h9UwkiteBG-39" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="428.87" y="-79.00000000000001" width="102.63" height="78.98" as="geometry" />
-        </mxCell>
-        <mxCell id="LDGPiypFd4h9UwkiteBG-40" value="Labeling&amp;nbsp; | Segmentation" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;shadow=0;dashed=0;shape=mxgraph.ios7.icons.window;rounded=1;gradientColor=#ffffff;strokeColor=#1A1A1A;" vertex="1" parent="LDGPiypFd4h9UwkiteBG-39">
-          <mxGeometry width="102.63" height="78.98000000000002" as="geometry" />
+        <mxCell id="LDGPiypFd4h9UwkiteBG-40" value="Labeling&amp;nbsp; | Segmentation" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;shadow=1;dashed=0;shape=mxgraph.ios7.icons.window;rounded=1;gradientColor=#ffffff;strokeColor=#1A1A1A;" vertex="1" parent="LDGPiypFd4h9UwkiteBG-39">
+          <mxGeometry width="80" height="60.000000000000014" as="geometry" />
         </mxCell>
         <mxCell id="LDGPiypFd4h9UwkiteBG-41" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.graphics.lineChart;strokeColor=none;strokeColor2=#666666;strokeColor3=#008cff;strokeColor4=#dddddd;rounded=1;gradientColor=#ffffff;" vertex="1" parent="LDGPiypFd4h9UwkiteBG-39">
-          <mxGeometry x="7.859054054054053" y="18.13316326530612" width="86.91189189189187" height="42.71367346938776" as="geometry" />
+          <mxGeometry x="6.126126126126127" y="13.77551020408163" width="67.74774774774774" height="32.44897959183673" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
