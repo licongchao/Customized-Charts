@@ -1,1 +1,49 @@
-<mxfile host="app.diagrams.net" modified="2020-12-14T02:17:39.697Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" version="14.0.0" etag="Vq1BuUCIRHuue3izNl4x" type="github"><diagram id="XFsLVczQiSWTd9mVh9Vo">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-12-14T02:25:34.282Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="Ep3eG276OtrDbkpRC3rI" version="14.0.0" type="github">
+  <diagram id="XFsLVczQiSWTd9mVh9Vo" name="Page-1">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="-wAfrcIoaoq5ODU0z_pt-1" value="第一层" style="strokeWidth=2;shadow=1;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.comboBox;strokeColor=#999999;align=left;fillColor2=#aaddff;mainText=;fontColor=#666666;fontSize=17;spacingLeft=3;fillColor=none;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="180" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-wAfrcIoaoq5ODU0z_pt-2" value="第二层" style="strokeWidth=2;shadow=1;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.comboBox;strokeColor=#999999;align=left;fillColor2=#aaddff;mainText=;fontColor=#666666;fontSize=17;spacingLeft=3;fillColor=none;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="180" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-wAfrcIoaoq5ODU0z_pt-3" value="第三层" style="strokeWidth=2;shadow=1;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.comboBox;strokeColor=#999999;align=left;fillColor2=#aaddff;mainText=;fontColor=#666666;fontSize=17;spacingLeft=3;fillColor=none;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="180" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-wAfrcIoaoq5ODU0z_pt-4" value="添加第一层" style="strokeWidth=1;shadow=1;dashed=0;align=center;html=1;shape=mxgraph.mockup.buttons.button;strokeColor=#666666;fontColor=#ffffff;mainText=;buttonStyle=round;fontSize=17;fontStyle=1;whiteSpace=wrap;sketch=0;fillColor=#B3B3B3;" vertex="1" parent="1">
+          <mxGeometry x="130" y="140" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-wAfrcIoaoq5ODU0z_pt-5" value="添加第二层" style="strokeWidth=1;shadow=1;dashed=0;align=center;html=1;shape=mxgraph.mockup.buttons.button;strokeColor=#666666;fontColor=#ffffff;mainText=;buttonStyle=round;fontSize=17;fontStyle=1;whiteSpace=wrap;sketch=0;fillColor=#B3B3B3;" vertex="1" parent="1">
+          <mxGeometry x="310" y="140" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-wAfrcIoaoq5ODU0z_pt-6" value="添加第三层" style="strokeWidth=1;shadow=1;dashed=0;align=center;html=1;shape=mxgraph.mockup.buttons.button;strokeColor=#666666;fontColor=#ffffff;mainText=;buttonStyle=round;fontSize=17;fontStyle=1;whiteSpace=wrap;sketch=0;fillColor=#B3B3B3;" vertex="1" parent="1">
+          <mxGeometry x="490" y="140" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-wAfrcIoaoq5ODU0z_pt-7" value="Some default&#xa;dialog&#xa;text." style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.rrect;rSize=0;strokeColor=#666666;fontColor=#666666;fontSize=17;verticalAlign=top;whiteSpace=wrap;fillColor=#ffffff;spacingTop=32;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="40" width="250" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="-wAfrcIoaoq5ODU0z_pt-8" value="第一层 添加" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.rrect;rSize=0;fontSize=17;fontColor=#666666;strokeColor=#666666;align=left;spacingLeft=8;fillColor=none;resizeWidth=1;" vertex="1" parent="-wAfrcIoaoq5ODU0z_pt-7">
+          <mxGeometry width="250" height="30" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-wAfrcIoaoq5ODU0z_pt-9" value="" style="shape=ellipse;strokeColor=#008cff;resizable=0;fillColor=none;html=1;" vertex="1" parent="-wAfrcIoaoq5ODU0z_pt-8">
+          <mxGeometry x="1" y="0.5" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-25" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-wAfrcIoaoq5ODU0z_pt-10" value="Cancel" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.rrect;rSize=0;fontSize=16;fontColor=#666666;strokeColor=#c4c4c4;whiteSpace=wrap;fillColor=none;" vertex="1" parent="-wAfrcIoaoq5ODU0z_pt-7">
+          <mxGeometry x="0.25" y="1" width="90" height="25" relative="1" as="geometry">
+            <mxPoint x="-45" y="-33" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-wAfrcIoaoq5ODU0z_pt-11" value="OK" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.rrect;rSize=0;fontSize=16;fontColor=#666666;strokeColor=#c4c4c4;whiteSpace=wrap;fillColor=none;" vertex="1" parent="-wAfrcIoaoq5ODU0z_pt-7">
+          <mxGeometry x="0.75" y="1" width="90" height="25" relative="1" as="geometry">
+            <mxPoint x="-45" y="-33" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
