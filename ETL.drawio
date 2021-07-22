@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-22T08:43:48.670Z" agent="5.0 (Windows)" etag="D28jwWqYEQY0t8wc5wvJ" version="14.9.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-22T08:45:48.071Z" agent="5.0 (Windows)" etag="qbH9nPb0XTUZ5HN_ptrN" version="14.9.1" type="github">
   <diagram name="Page-1" id="12e1b939-464a-85fe-373e-61e167be1490">
     <mxGraphModel dx="1422" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
@@ -160,14 +160,14 @@
         <mxCell id="_n4vUQhBtcx1B0NC8GrD-60" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;shadow=0;dashed=0;shape=mxgraph.ios7.icons.data;fillColor=#808080;strokeColor=#666666;" parent="1" vertex="1">
           <mxGeometry x="920" y="575" width="44" height="59.1" as="geometry" />
         </mxCell>
-        <mxCell id="_n4vUQhBtcx1B0NC8GrD-61" value="Storage" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=14;fontColor=#FFFFFF;" parent="1" vertex="1">
-          <mxGeometry x="880" y="920" width="280" height="30" as="geometry" />
+        <mxCell id="_n4vUQhBtcx1B0NC8GrD-61" value="&lt;b&gt;&lt;font face=&quot;Georgia&quot;&gt;Storage&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=14;fontColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="880" y="910" width="280" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_n4vUQhBtcx1B0NC8GrD-62" value="" style="line;strokeWidth=2;html=1;rounded=0;shadow=0;fontSize=27;align=center;fillColor=none;strokeColor=#FFFFFF;" parent="1" vertex="1">
           <mxGeometry x="898" y="910" width="240" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="_n4vUQhBtcx1B0NC8GrD-63" value="&lt;div&gt;&lt;b&gt;&lt;font face=&quot;Tahoma&quot;&gt;Streaming Data&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font face=&quot;Tahoma&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=14;fontColor=#FFFFFF;" parent="1" vertex="1">
-          <mxGeometry x="1158" y="920" width="280" height="30" as="geometry" />
+        <mxCell id="_n4vUQhBtcx1B0NC8GrD-63" value="&lt;font face=&quot;Georgia&quot;&gt;&lt;b&gt;Streaming Analytics&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=14;fontColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="1158" y="910" width="280" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_n4vUQhBtcx1B0NC8GrD-64" value="" style="line;strokeWidth=2;html=1;rounded=0;shadow=0;fontSize=27;align=center;fillColor=none;strokeColor=#FFFFFF;" parent="1" vertex="1">
           <mxGeometry x="1176" y="910" width="240" height="10" as="geometry" />
