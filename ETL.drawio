@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-22T08:45:48.071Z" agent="5.0 (Windows)" etag="qbH9nPb0XTUZ5HN_ptrN" version="14.9.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-22T08:46:55.655Z" agent="5.0 (Windows)" etag="132_ZP6ekmsi0OT4qgVD" version="14.9.1" type="github">
   <diagram name="Page-1" id="12e1b939-464a-85fe-373e-61e167be1490">
     <mxGraphModel dx="1422" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
@@ -201,6 +201,12 @@
         </mxCell>
         <mxCell id="hcTz_RfjsQjMArmlq-sm-3" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/100-basic-for-user-interface/32/73-files-128.png;fillColor=#E6E6E6;" vertex="1" parent="1">
           <mxGeometry x="980" y="575" width="62" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="hcTz_RfjsQjMArmlq-sm-4" value="" style="shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.databases.monitoring_store;sketch=0;opacity=60;" vertex="1" parent="1">
+          <mxGeometry x="1273" y="852.25" width="58" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="hcTz_RfjsQjMArmlq-sm-5" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/maternity-and-pregnancy-2/512/370_database_data_architecture_infographics_monitoring_data_management_organization-128.png;shadow=0;sketch=0;fillColor=#B3B3B3;gradientColor=#ffffff;opacity=60;" vertex="1" parent="1">
+          <mxGeometry x="970" y="841.25" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
