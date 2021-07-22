@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-22T07:50:54.852Z" agent="5.0 (Windows)" etag="d2hHJaizg0O-j2XzjMk5" version="14.9.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-22T07:55:34.799Z" agent="5.0 (Windows)" etag="bGUD6beCk-tMEu764MRi" version="14.9.1" type="github">
   <diagram name="Page-1" id="12e1b939-464a-85fe-373e-61e167be1490">
     <mxGraphModel dx="2031" dy="1074" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
@@ -61,7 +61,7 @@
         <mxCell id="60da8b9f42644d3a-35" value="" style="line;strokeWidth=2;html=1;rounded=0;shadow=0;fontSize=27;align=center;fillColor=none;strokeColor=#FFFFFF;" parent="1" vertex="1">
           <mxGeometry x="1176" y="705" width="240" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="_n4vUQhBtcx1B0NC8GrD-14" value="&lt;b&gt;&lt;font face=&quot;Georgia&quot;&gt;Custom transformer&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=14;fontColor=#FFFFFF;" vertex="1" parent="1">
+        <mxCell id="_n4vUQhBtcx1B0NC8GrD-14" value="&lt;b&gt;&lt;font face=&quot;Georgia&quot;&gt;Custom transform&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=14;fontColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="590" y="725" width="280" height="90" as="geometry" />
         </mxCell>
         <mxCell id="_n4vUQhBtcx1B0NC8GrD-25" value="Table" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;fontStyle=1;align=center;" vertex="1" parent="1">
@@ -135,6 +135,9 @@
         </mxCell>
         <mxCell id="_n4vUQhBtcx1B0NC8GrD-49" value="" style="shape=mxgraph.signs.healthcare.cath_lab;html=1;pointerEvents=1;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="510" y="860" width="54" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_n4vUQhBtcx1B0NC8GrD-50" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/customicondesign-mini-deepcolour-png/48/Wheels.png;fillColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="673.88" y="544.5" width="124.25" height="124.25" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
