@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-22T07:40:09.891Z" agent="5.0 (Windows)" etag="tSPlsEnzBjdXPN0UKebk" version="14.9.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-22T07:50:54.852Z" agent="5.0 (Windows)" etag="d2hHJaizg0O-j2XzjMk5" version="14.9.1" type="github">
   <diagram name="Page-1" id="12e1b939-464a-85fe-373e-61e167be1490">
     <mxGraphModel dx="2031" dy="1074" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
@@ -10,7 +10,7 @@
         <mxCell id="60da8b9f42644d3a-3" value="Data Sources" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=27;fontColor=#FFFFFF;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="316" y="425" width="280" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="60da8b9f42644d3a-4" value="&lt;font face=&quot;Tahoma&quot;&gt;&lt;b&gt;&lt;font color=&quot;#000000&quot;&gt;Structured data&lt;/font&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Tahoma&quot;&gt;&lt;b&gt;&lt;font color=&quot;#000000&quot;&gt;Unstructured data&lt;/font&gt; &lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Tahoma&quot;&gt;&lt;b&gt;&lt;font color=&quot;#000000&quot;&gt;Semi-structured data&lt;/font&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=14;fontColor=#FFFFFF;" parent="1" vertex="1">
+        <mxCell id="60da8b9f42644d3a-4" value="&lt;font face=&quot;Georgia&quot;&gt;&lt;b&gt;&lt;font color=&quot;#000000&quot;&gt;Structured data&lt;/font&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Georgia&quot;&gt;&lt;b&gt;&lt;font color=&quot;#000000&quot;&gt;Unstructured data&lt;/font&gt; &lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Georgia&quot;&gt;&lt;b&gt;&lt;font color=&quot;#000000&quot;&gt;Semi-structured data&lt;/font&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=14;fontColor=#FFFFFF;" parent="1" vertex="1">
           <mxGeometry x="316" y="725" width="280" height="90" as="geometry" />
         </mxCell>
         <mxCell id="60da8b9f42644d3a-6" value="" style="line;strokeWidth=2;html=1;rounded=0;shadow=0;fontSize=27;align=center;fillColor=none;strokeColor=#FFFFFF;" parent="1" vertex="1">
@@ -61,7 +61,7 @@
         <mxCell id="60da8b9f42644d3a-35" value="" style="line;strokeWidth=2;html=1;rounded=0;shadow=0;fontSize=27;align=center;fillColor=none;strokeColor=#FFFFFF;" parent="1" vertex="1">
           <mxGeometry x="1176" y="705" width="240" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="_n4vUQhBtcx1B0NC8GrD-14" value="Custom transformer" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=14;fontColor=#FFFFFF;" vertex="1" parent="1">
+        <mxCell id="_n4vUQhBtcx1B0NC8GrD-14" value="&lt;b&gt;&lt;font face=&quot;Georgia&quot;&gt;Custom transformer&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=14;fontColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="590" y="725" width="280" height="90" as="geometry" />
         </mxCell>
         <mxCell id="_n4vUQhBtcx1B0NC8GrD-25" value="Table" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;fontStyle=1;align=center;" vertex="1" parent="1">
@@ -117,6 +117,24 @@
         </mxCell>
         <mxCell id="_n4vUQhBtcx1B0NC8GrD-42" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/social-media-logos-6/512/68-word-128.png" vertex="1" parent="1">
           <mxGeometry x="500" y="592.5" width="67.5" height="67.5" as="geometry" />
+        </mxCell>
+        <mxCell id="_n4vUQhBtcx1B0NC8GrD-43" value="" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=8;fontSize=20;align=center;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
+          <mxGeometry x="316" y="850" width="284" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="_n4vUQhBtcx1B0NC8GrD-44" value="&lt;div&gt;&lt;b&gt;&lt;font face=&quot;Tahoma&quot;&gt;Streaming Data&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font face=&quot;Tahoma&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=14;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="320" y="920" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_n4vUQhBtcx1B0NC8GrD-45" value="" style="line;strokeWidth=2;html=1;rounded=0;shadow=0;fontSize=27;align=center;fillColor=none;strokeColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="338" y="910" width="240" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="_n4vUQhBtcx1B0NC8GrD-46" value="" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#505050;shape=mxgraph.mscae.intune.device_health" vertex="1" parent="1">
+          <mxGeometry x="360" y="870" width="54.75" height="35.75" as="geometry" />
+        </mxCell>
+        <mxCell id="_n4vUQhBtcx1B0NC8GrD-48" value="" style="points=[[0.03,0.03,0],[0.5,0,0],[0.97,0.03,0],[1,0.4,0],[0.97,0.745,0],[0.5,1,0],[0.03,0.745,0],[0,0.4,0]];verticalLabelPosition=bottom;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.workstation;strokeColor=none;fillColor=#808080;" vertex="1" parent="1">
+          <mxGeometry x="441" y="870" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_n4vUQhBtcx1B0NC8GrD-49" value="" style="shape=mxgraph.signs.healthcare.cath_lab;html=1;pointerEvents=1;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="510" y="860" width="54" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
